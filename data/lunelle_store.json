@@ -1,0 +1,874 @@
+{
+  "users": [
+    {
+      "id": "usr_1792873430592_qzmth",
+      "email": "priya@lunelle.health",
+      "password_hash": "$2a$10$giPHXe9LoY65zBDfnuM9L.KX5Fcy3ybWdU1LZePDX9n9M.OYolKxy",
+      "created_at": "2026-10-24T20:23:50.724Z"
+    },
+    {
+      "id": "usr_1792873604374_pgbvf",
+      "email": "imailpallavi@gmail.com",
+      "password_hash": "$2a$10$CxEpr5ajRzQHU.xAOzI9YO5JnmE3N9BIU96wi/Yi5f.3Lxu0XRQp.",
+      "created_at": "2026-10-24T20:26:44.563Z"
+    },
+    {
+      "id": "usr_1792878776521_tz0wj",
+      "email": "ananya@example.com",
+      "password_hash": "$2a$10$ilJi7GVYDf4peu4oI4L.r.CI3ta9X6L5arS8pty5cP/Wff4oUBOFe",
+      "created_at": "2026-10-24T21:52:57.014Z"
+    },
+    {
+      "id": "usr_1792880726795_akazq",
+      "email": "ananya.new.2026@example.com",
+      "password_hash": "$2a$10$FtvuKzT3EY73Q/LjvNlv2uo4pdXJAL4prub6B4a9L0qwNEkkHQ5Qa",
+      "created_at": "2026-10-24T22:25:27.337Z"
+    }
+  ],
+  "user_profiles": [
+    {
+      "user_id": "usr_1792873430592_qzmth",
+      "preferred_name": "Priya",
+      "preferred_language": "en",
+      "health_history": "",
+      "allergies": "",
+      "medications": "",
+      "conditions": "",
+      "observations": "",
+      "cycle_tracking_enabled": true,
+      "pcos_module_enabled": false,
+      "perimenopause_module_enabled": false,
+      "reproductive_module_enabled": true,
+      "communication_style": "simple",
+      "reminder_prefs": "{\"inApp\":true,\"browser\":false}",
+      "data_consent": true,
+      "updated_at": "2026-10-24T20:25:09.692Z"
+    },
+    {
+      "user_id": "usr_1792873604374_pgbvf",
+      "preferred_name": "Pallavi",
+      "preferred_language": "en",
+      "health_history": "",
+      "allergies": "",
+      "medications": "",
+      "conditions": "",
+      "observations": "",
+      "cycle_tracking_enabled": true,
+      "pcos_module_enabled": true,
+      "perimenopause_module_enabled": true,
+      "reproductive_module_enabled": true,
+      "communication_style": "simple",
+      "reminder_prefs": "{\"inApp\":true,\"browser\":false}",
+      "data_consent": true,
+      "updated_at": "2026-10-24T20:27:04.698Z"
+    },
+    {
+      "user_id": "usr_1792878776521_tz0wj",
+      "preferred_name": "Ananya",
+      "preferred_language": "en",
+      "health_history": "",
+      "allergies": "",
+      "medications": "",
+      "conditions": "",
+      "observations": "",
+      "cycle_tracking_enabled": true,
+      "pcos_module_enabled": false,
+      "perimenopause_module_enabled": false,
+      "reproductive_module_enabled": true,
+      "communication_style": "simple",
+      "reminder_prefs": "{\"inApp\":true,\"browser\":false}",
+      "data_consent": true,
+      "updated_at": "2026-10-24T21:52:57.014Z"
+    },
+    {
+      "user_id": "usr_1792880726795_akazq",
+      "preferred_name": "Ananya",
+      "preferred_language": "en",
+      "health_history": "",
+      "allergies": "",
+      "medications": "",
+      "conditions": "",
+      "observations": "",
+      "cycle_tracking_enabled": true,
+      "pcos_module_enabled": false,
+      "perimenopause_module_enabled": false,
+      "reproductive_module_enabled": true,
+      "communication_style": "simple",
+      "reminder_prefs": "{\"inApp\":true,\"browser\":false}",
+      "data_consent": false,
+      "updated_at": "2026-10-24T22:28:56.806Z"
+    }
+  ],
+  "symptoms": [
+    {
+      "id": "sym_1792874729388_67x3",
+      "user_id": "usr_1792873604374_pgbvf",
+      "symptom_name": "Unspecified Pain",
+      "original_description": "kal se body pain hai",
+      "date_time": "2026-10-24T20:45:29.388Z",
+      "start_date": "2026-10-23",
+      "duration": "Since yesterday",
+      "severity": "Moderate",
+      "frequency": "Occasional",
+      "body_area": "General",
+      "associated_symptoms": [],
+      "contextual_factors": [],
+      "notes": "Extracted via Hinglish voice/text parser for user review",
+      "attachments": [],
+      "original_language": "hinglish",
+      "confirmation_status": "confirmed",
+      "created_at": "2026-10-24T20:45:29.388Z"
+    },
+    {
+      "id": "sym_1792879829959_vjgq",
+      "user_id": "usr_1792873604374_pgbvf",
+      "symptom_name": "Health Concern",
+      "original_description": "period late hai 2 din",
+      "date_time": "2026-10-24T22:10:29.959Z",
+      "start_date": "2026-10-24",
+      "duration": "2 days",
+      "severity": "Moderate",
+      "frequency": "Occasional",
+      "body_area": "Unspecified",
+      "associated_symptoms": [],
+      "contextual_factors": [],
+      "notes": "Overdue by 2 days",
+      "attachments": [],
+      "original_language": "hinglish",
+      "confirmation_status": "confirmed",
+      "created_at": "2026-10-24T22:10:29.959Z"
+    },
+    {
+      "id": "sym_1792880244707_xom8",
+      "user_id": "usr_1792873604374_pgbvf",
+      "symptom_name": "Guided Assessment: stomach pain",
+      "original_description": "Assessment Summary for: \"stomach pain\". Reported duration and context: {\"duration\":\"1-2 days\",\"progression\":\"worsening\",\"associatedNotes\":\"\"}.",
+      "date_time": "2026-10-24T22:17:24.707Z",
+      "start_date": "2026-10-24",
+      "duration": "Not specified",
+      "severity": "Moderate",
+      "frequency": "Occasional",
+      "body_area": "General",
+      "associated_symptoms": [],
+      "contextual_factors": [],
+      "notes": "Next steps: Monitor symptom progression over the next 24-48 hours.; Maintain adequate hydration and rest in a well-ventilated space.; If symptoms escalate in severity, become continuous, or if new warning signs emerge, consult a healthcare provider promptly.",
+      "attachments": [],
+      "original_language": "en",
+      "confirmation_status": "confirmed",
+      "created_at": "2026-10-24T22:17:24.707Z"
+    },
+    {
+      "id": "sym_1792886388898_w9vh",
+      "user_id": "usr_1792873604374_pgbvf",
+      "symptom_name": "Daily Health Note: LOW Energy",
+      "original_description": "Low",
+      "date_time": "2026-10-24T23:59:48.898Z",
+      "start_date": "2026-10-24",
+      "duration": "Not specified",
+      "severity": "Mild",
+      "frequency": "Occasional",
+      "body_area": "General",
+      "associated_symptoms": [],
+      "contextual_factors": [],
+      "notes": "Quick check-in logged via Overview. Energy level: low.",
+      "attachments": [],
+      "original_language": "en",
+      "confirmation_status": "confirmed",
+      "created_at": "2026-10-24T23:59:48.898Z"
+    }
+  ],
+  "cycle_entries": [
+    {
+      "id": "cyc_1792875323441_zl3s",
+      "user_id": "usr_1792873604374_pgbvf",
+      "date": "2026-10-24",
+      "cycle_day": 1,
+      "flow_level": "medium",
+      "cramps_severity": "mild",
+      "mood": "Calm",
+      "energy_level": "normal",
+      "notes": "craving but angry",
+      "symptoms": [],
+      "created_at": "2026-10-24T20:55:23.441Z"
+    },
+    {
+      "id": "cyc_1792876769007_6chu",
+      "user_id": "usr_1792873604374_pgbvf",
+      "date": "2026-09-24",
+      "cycle_day": 1,
+      "flow_level": "medium",
+      "cramps_severity": "mild",
+      "mood": "Calm",
+      "energy_level": "normal",
+      "notes": "",
+      "symptoms": [],
+      "created_at": "2026-10-24T21:19:29.007Z"
+    },
+    {
+      "id": "cyc_1792876833303_q0xe",
+      "user_id": "usr_1792873604374_pgbvf",
+      "date": "2026-09-24",
+      "cycle_day": 2,
+      "flow_level": "spotting",
+      "cramps_severity": "severe",
+      "mood": "Calm",
+      "energy_level": "normal",
+      "notes": "",
+      "symptoms": [],
+      "created_at": "2026-10-24T21:20:33.303Z"
+    },
+    {
+      "id": "cyc_1792876847070_2bcu",
+      "user_id": "usr_1792873604374_pgbvf",
+      "date": "2026-09-24",
+      "cycle_day": 3,
+      "flow_level": "spotting",
+      "cramps_severity": "moderate",
+      "mood": "Calm",
+      "energy_level": "normal",
+      "notes": "",
+      "symptoms": [],
+      "created_at": "2026-10-24T21:20:47.070Z"
+    }
+  ],
+  "lab_reports": [
+    {
+      "id": "rep_1792876167525_76yk",
+      "user_id": "usr_1792873604374_pgbvf",
+      "title": "Screenshot 2026-10-25 023830",
+      "lab_name": "Diagnostic Laboratory",
+      "report_date": "26-10-25",
+      "file_name": "Screenshot 2026-10-25 023830.png",
+      "file_path": "",
+      "file_size": 142415,
+      "notes": "Reference ranges can vary based on individual laboratory instruments, calibration standards, age, and clinical history. Never alter prescribed therapies without consulting your doctor.",
+      "status": "confirmed",
+      "created_at": "2026-10-24T21:09:27.525Z"
+    },
+    {
+      "id": "rep_1792876333503_3xss",
+      "user_id": "usr_1792873604374_pgbvf",
+      "title": "Screenshot 2026-10-25 024137",
+      "lab_name": "Diagnostic Laboratory",
+      "report_date": "26-10-25",
+      "file_name": "Screenshot 2026-10-25 024137.png",
+      "file_path": "",
+      "file_size": 212058,
+      "notes": "Reference ranges can vary based on individual laboratory instruments, calibration standards, age, and clinical history. Never alter prescribed therapies without consulting your doctor.",
+      "status": "confirmed",
+      "created_at": "2026-10-24T21:12:13.503Z"
+    }
+  ],
+  "lab_results": [
+    {
+      "id": "res_1792876167525_4okx",
+      "report_id": "rep_1792876167525_76yk",
+      "user_id": "usr_1792873604374_pgbvf",
+      "test_name": "GENERAL INVESTIGATION",
+      "result_value": "12.0",
+      "unit": "Units",
+      "reference_range": "Standard Range",
+      "abnormality_flag": "Normal",
+      "interpretation": "Please review and adjust the test name, value, and printed reference range according to your paper or PDF report before saving.",
+      "created_at": "2026-10-24T21:09:27.525Z"
+    },
+    {
+      "id": "res_1792876333504_h9z3",
+      "report_id": "rep_1792876333503_3xss",
+      "user_id": "usr_1792873604374_pgbvf",
+      "test_name": "GENERAL INVESTIGATION",
+      "result_value": "8",
+      "unit": "Units",
+      "reference_range": "Standard Range",
+      "abnormality_flag": "High",
+      "interpretation": "Please review and adjust the test name, value, and printed reference range according to your paper or PDF report before saving.",
+      "created_at": "2026-10-24T21:12:13.503Z"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "rem_1792879882052_1gdm",
+      "user_id": "usr_1792873604374_pgbvf",
+      "title": "Crocin",
+      "category": "medication",
+      "schedule_time": "03:42",
+      "days_of_week": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "repeat_interval": "daily",
+      "is_completed": false,
+      "is_active": true,
+      "notes": "",
+      "created_at": "2026-10-24T22:11:22.052Z"
+    }
+  ],
+  "medical_vault": [
+    {
+      "id": "doc_1792876400314_ewa1",
+      "user_id": "usr_1792873604374_pgbvf",
+      "title": "Screenshot 2026-10-25 024137.png",
+      "category": "Prescription",
+      "file_name": "Screenshot 2026-10-25 024137.png",
+      "file_path": "/uploads/1792876400306-522827254.png",
+      "file_size": 212058,
+      "mime_type": "image/png",
+      "document_date": "2026-10-24",
+      "notes": "",
+      "created_at": "2026-10-24T21:13:20.314Z"
+    },
+    {
+      "id": "doc_1792879925919_232u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "title": "PCOS",
+      "category": "Prescription",
+      "file_name": "Screenshot 2026-10-25 023753.png",
+      "file_path": "/uploads/1792879925900-634717975.png",
+      "file_size": 262400,
+      "mime_type": "image/png",
+      "document_date": "2026-10-24",
+      "notes": "",
+      "created_at": "2026-10-24T22:12:05.919Z"
+    }
+  ],
+  "assessment_summaries": [
+    {
+      "id": "ass_1792880244684_j0e9",
+      "user_id": "usr_1792873604374_pgbvf",
+      "concern": "stomach pain",
+      "emergency_flagged": false,
+      "responses_json": {
+        "duration": "1-2 days",
+        "progression": "worsening",
+        "associatedNotes": ""
+      },
+      "summary_text": "Assessment Summary for: \"stomach pain\". Reported duration and context: {\"duration\":\"1-2 days\",\"progression\":\"worsening\",\"associatedNotes\":\"\"}.",
+      "recommended_next_steps": [
+        "Monitor symptom progression over the next 24-48 hours.",
+        "Maintain adequate hydration and rest in a well-ventilated space.",
+        "If symptoms escalate in severity, become continuous, or if new warning signs emerge, consult a healthcare provider promptly."
+      ],
+      "created_at": "2026-10-24T22:17:24.684Z"
+    }
+  ],
+  "ai_conversations": [
+    {
+      "id": "conv_1792873637775_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "When did I last record a headache?",
+      "created_at": "2026-10-24T20:27:17.775Z"
+    },
+    {
+      "id": "conv_1792873637775_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nNo recorded entries for headaches or migraines were found in your personal health log.\n\nNote: Lunelle only checks the records you have actively logged. If you experienced headaches without recording them, they will not appear here.",
+      "metadata_json": {
+        "memoryConsulted": false
+      },
+      "created_at": "2026-10-24T20:27:17.775Z"
+    },
+    {
+      "id": "conv_1792873643021_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "What did my previous report say?",
+      "created_at": "2026-10-24T20:27:23.021Z"
+    },
+    {
+      "id": "conv_1792873643021_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nNo laboratory reports are currently saved in your medical records.\n\nYou can upload PDF or image reports in the Lab Reports tab to track values over time.",
+      "metadata_json": {
+        "memoryConsulted": false
+      },
+      "created_at": "2026-10-24T20:27:23.021Z"
+    },
+    {
+      "id": "conv_1792873644159_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "What did my previous report say?",
+      "created_at": "2026-10-24T20:27:24.159Z"
+    },
+    {
+      "id": "conv_1792873644159_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nNo laboratory reports are currently saved in your medical records.\n\nYou can upload PDF or image reports in the Lab Reports tab to track values over time.",
+      "metadata_json": {
+        "memoryConsulted": false
+      },
+      "created_at": "2026-10-24T20:27:24.159Z"
+    },
+    {
+      "id": "conv_1792873646515_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "How have my symptoms changed this month?",
+      "created_at": "2026-10-24T20:27:26.515Z"
+    },
+    {
+      "id": "conv_1792873646515_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi. Thank you for asking. I am here to help you understand your symptoms, lab reports, and patterns in your records.\n\nPlease note: I provide general health information and can search your logged history, but I do not provide clinical diagnoses or prescribe treatments. If you are experiencing concerning or persistent symptoms, a consultation with a qualified healthcare professional is always recommended.\n\nCould you tell me a little more about what you are feeling or what you would like to review?",
+      "metadata_json": {
+        "memoryConsulted": false
+      },
+      "created_at": "2026-10-24T20:27:26.515Z"
+    },
+    {
+      "id": "conv_1792875341288_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "When did I last record a headache?",
+      "created_at": "2026-10-24T20:55:41.288Z"
+    },
+    {
+      "id": "conv_1792875341288_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nNo recorded entries for headaches or migraines were found in your personal health log.\n\nNote: Lunelle only checks the records you have actively logged. If you experienced headaches without recording them, they will not appear here.",
+      "metadata_json": {
+        "memoryConsulted": false
+      },
+      "created_at": "2026-10-24T20:55:41.288Z"
+    },
+    {
+      "id": "conv_1792875345035_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "How have my symptoms changed this month?",
+      "created_at": "2026-10-24T20:55:45.035Z"
+    },
+    {
+      "id": "conv_1792875345035_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi, based on your personal health records in Lunelle:\n\nOver the past 30 days, you logged 1 symptom entry: Unspecified Pain (1x).\n\nAggregated frequency based on your recent 30-day symptom logs.\n\nIs there a specific detail from these entries you would like to explore or discuss?",
+      "metadata_json": {
+        "memoryConsulted": true
+      },
+      "created_at": "2026-10-24T20:55:45.035Z"
+    },
+    {
+      "id": "conv_1792875370522_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "in my report Hb is 8.5",
+      "created_at": "2026-10-24T20:56:10.522Z"
+    },
+    {
+      "id": "conv_1792875370522_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nNo laboratory reports are currently saved in your medical records.\n\nYou can upload PDF or image reports in the Lab Reports tab to track values over time.",
+      "metadata_json": {
+        "memoryConsulted": false
+      },
+      "created_at": "2026-10-24T20:56:10.522Z"
+    },
+    {
+      "id": "conv_1792876355305_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "What information have I recorded about my cycle?",
+      "created_at": "2026-10-24T21:12:35.305Z"
+    },
+    {
+      "id": "conv_1792876355305_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi, based on your personal health records in Lunelle:\n\nYou have 1 cycle log on record. Your last logged entry was on 2026-10-24 noting flow level \"medium\" and cramp severity \"mild\".\n\nCycle history summary based strictly on user-confirmed dates.\n\nIs there a specific detail from these entries you would like to explore or discuss?",
+      "metadata_json": {
+        "memoryConsulted": true
+      },
+      "created_at": "2026-10-24T21:12:35.305Z"
+    },
+    {
+      "id": "conv_1792876876703_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "When did I last record a headache?",
+      "created_at": "2026-10-24T21:21:16.703Z"
+    },
+    {
+      "id": "conv_1792876876703_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nNo recorded entries for headaches or migraines were found in your personal health log.\n\nNote: Lunelle only checks the records you have actively logged. If you experienced headaches without recording them, they will not appear here.",
+      "metadata_json": {
+        "memoryConsulted": false
+      },
+      "created_at": "2026-10-24T21:21:16.703Z"
+    },
+    {
+      "id": "conv_1792878014872_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "Meri report me Hb 9.5 hai iska kya matlab?",
+      "created_at": "2026-10-24T21:40:14.872Z"
+    },
+    {
+      "id": "conv_1792878014872_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nA haemoglobin value around 9.0 to 11.5 g/dL is considered **below the standard laboratory reference range** for adult women (normal is typically 12.0 – 15.5 g/dL). This indicates **mild-to-moderate anemia**.\n\n### 🔍 What this means for your body:\nHaemoglobin is the protein in red blood cells that carries oxygen to your brain, muscles, and organs. When levels are low, less oxygen reaches your tissues, leading to:\n• Feeling unusually tired or exhausted even after full sleep\n• Brain fog, lightheadedness, or shortness of breath on stairs\n• Pale skin, brittle nails, or increased hair fall\n• Cold hands and feet\n\n### 🌿 Potential contributing causes:\n1. **Heavy menstrual bleeding (Menorrhagia):** The most frequent cause of iron depletion in reproductive-age women.\n2. **Nutritional iron insufficiency:** Low dietary intake of bioavailable iron or poor gut absorption.\n3. **Low Ferritin / B12 / Folate:** Deep iron stores (Ferritin) or co-factors may also be depleted.\n\n### 🥗 Supportive Nutrition & Practical Steps:\n• **Iron-rich foods:** Spinach (palak), beetroot, pomegranate, lentils, chickpeas, dark leafy greens, jaggery (gud), sesame seeds (til), and lean meats or eggs.\n• **Pair with Vitamin C:** Squeeze fresh lemon juice over your meals or eat amla/oranges—Vitamin C multiplies non-heme plant iron absorption by up to 3x!\n• **Avoid tea/coffee with meals:** Tannins in chai and coffee inhibit iron absorption. Wait at least 45–60 minutes after meals.\n\n### 👩‍⚕️ Questions to Ask Your Doctor:\n• *\"Should we check my Serum Ferritin and Total Iron Binding Capacity (TIBC)?\"*\n• *\"Would a course of oral iron supplementation with Vitamin C be appropriate for me?\"*\n• *\"Could my menstrual flow volume be contributing to this drop?\"*\n\n*Disclaimer: Laboratory values must always be interpreted in person with your healthcare provider.*",
+      "metadata_json": {
+        "memoryConsulted": true,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-24T21:40:14.872Z"
+    },
+    {
+      "id": "conv_1792878021313_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "What did my previous report say?",
+      "created_at": "2026-10-24T21:40:21.313Z"
+    },
+    {
+      "id": "conv_1792878021313_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nHere is what I found in your authorized Lunelle personal records:\n\nYour most recently saved report is \"Screenshot 2026-10-25 023830\" dated 26-10-25 from Diagnostic Laboratory. Extracted values: GENERAL INVESTIGATION: 12.0 Units (Normal).\n\n📋 **Supporting Details:**\n• **26-10-25**: Screenshot 2026-10-25 023830 (Diagnostic Laboratory)\n\n💡 *Lab results must always be reviewed in consultation with your attending physician.*",
+      "metadata_json": {
+        "memoryConsulted": true,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-24T21:40:21.313Z"
+    },
+    {
+      "id": "conv_1792878028337_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "How have my symptoms changed this month?",
+      "created_at": "2026-10-24T21:40:28.337Z"
+    },
+    {
+      "id": "conv_1792878028337_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nHere is what I found in your authorized Lunelle personal records:\n\nOver the past 30 days, you logged 1 symptom entry: Unspecified Pain (1x).\n\n📋 **Supporting Details:**\n• **2026-10-24T20:45:29.388Z**: Unspecified Pain — Moderate\n\n💡 *Aggregated frequency based on your recent 30-day symptom logs.*",
+      "metadata_json": {
+        "memoryConsulted": true,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-24T21:40:28.337Z"
+    },
+    {
+      "id": "conv_1792878029808_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "What should I ask my doctor about these logs?",
+      "created_at": "2026-10-24T21:40:29.808Z"
+    },
+    {
+      "id": "conv_1792878029808_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nThank you for reaching out. As your Lunelle health companion, I am here to help you make sense of your symptoms, understand clinical test ranges, and keep track of patterns in your body.\n\n### 🌿 Areas I can help you with:\n• **Laboratory Blood Tests:** Explaining values for Haemoglobin, TSH, Vitamin D, B12, Blood Sugar, Lipids, and Ferritin.\n• **Women's Health & Hormones:** Insights into menstrual cycles, cramps, PCOS, perimenopause, and ovulation signs.\n• **Symptom Clarification:** Connecting clues between sleep, nutrition, stress, and physical fatigue.\n• **Personal Health Memory:** Searching your authorized database records anytime you ask.\n\nCould you share a bit more detail about what you are currently experiencing, or what specific test value or symptom you'd like to look into?\n\n*Please note: I provide clinical educational information and personal log retrieval, not medical diagnoses. Always consult your doctor for medical treatment.*",
+      "metadata_json": {
+        "memoryConsulted": false,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-24T21:40:29.808Z"
+    },
+    {
+      "id": "conv_1792878031991_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "How to manage menstrual cramps?",
+      "created_at": "2026-10-24T21:40:31.991Z"
+    },
+    {
+      "id": "conv_1792878031991_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nMenstrual cramps (dysmenorrhea) are caused by prostaglandins—hormone-like compounds that trigger the uterine muscles to contract and shed the uterine lining.\n\n### 🌿 Evidence-Based Natural Comfort Measures:\n1. **Targeted Heat Therapy:** A warm hot-water bottle or heating pad over your lower abdomen or lower back relaxes uterine smooth muscles as effectively as mild over-the-counter pain relievers.\n2. **Warm Herbal Infusions:**\n   • **Ginger tea (Adrak chai):** Powerful natural anti-inflammatory that inhibits prostaglandin synthesis.\n   • **Chamomile or Fennel (Saunf) water:** Relaxes smooth muscle spasms and reduces painful abdominal bloating.\n3. **Gentle Restorative Movement:** Child's pose (Balasana), Cat-Cow stretches, and slow diaphragmatic breathing encourage pelvic blood flow and release endorphins.\n4. **Magnesium & Hydration:** Sip warm water throughout the day. Magnesium-rich foods (bananas, pumpkin seeds, soaked almonds, dark chocolate) help relax muscle contractions.\n\n### ⚠️ When to seek medical review:\nIf period pain is so severe that it prevents normal activities, doesn't respond to standard relief, or is accompanied by heavy clotting (larger than a coin), consult a gynecologist to screen for conditions like endometriosis or fibroids.",
+      "metadata_json": {
+        "memoryConsulted": true,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-24T21:40:31.991Z"
+    },
+    {
+      "id": "conv_1792878241407_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "How have my symptoms changed this month?",
+      "created_at": "2026-10-24T21:44:01.407Z"
+    },
+    {
+      "id": "conv_1792878241407_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nHere is what I found in your authorized Lunelle personal records:\n\nOver the past 30 days, you logged 1 symptom entry: Unspecified Pain (1x).\n\n📋 **Supporting Details:**\n• **2026-10-24T20:45:29.388Z**: Unspecified Pain — Moderate\n\n💡 *Aggregated frequency based on your recent 30-day symptom logs.*",
+      "metadata_json": {
+        "memoryConsulted": true,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-24T21:44:01.407Z"
+    },
+    {
+      "id": "conv_1792878245746_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "What information have I recorded about my cycle?",
+      "created_at": "2026-10-24T21:44:05.746Z"
+    },
+    {
+      "id": "conv_1792878245746_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nHere is what I found in your authorized Lunelle personal records:\n\nYou have 4 cycle logs on record. Your last logged entry was on 2026-10-24 noting flow level \"medium\" and cramp severity \"mild\".\n\n📋 **Supporting Details:**\n• **2026-10-24**: Cycle Day 1 — Flow: medium, Cramps: mild\n• **2026-09-24**: Cycle Day 1 — Flow: medium, Cramps: mild\n• **2026-09-24**: Cycle Day 2 — Flow: spotting, Cramps: severe\n• **2026-09-24**: Cycle Day 3 — Flow: spotting, Cramps: moderate\n\n💡 *Cycle history summary based strictly on user-confirmed dates.*",
+      "metadata_json": {
+        "memoryConsulted": true,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-24T21:44:05.746Z"
+    },
+    {
+      "id": "conv_1792879742004_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "Meri report me Hb 9.5 hai iska kya matlab?",
+      "created_at": "2026-10-24T22:09:02.004Z"
+    },
+    {
+      "id": "conv_1792879742004_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nA haemoglobin value around 9.0 to 11.5 g/dL is below the standard reference range for women (normal is 12.0 to 15.5 g/dL). This indicates mild-to-moderate anemia.\n\n🔍 What this means for your body:\nHaemoglobin is the protein in red blood cells that carries oxygen to your brain and muscles. When levels are low, less oxygen circulates, causing:\n• Feeling tired or worn out even after good sleep\n• Brain fog, lightheadedness, or slight shortness of breath on stairs\n• Pale skin, brittle nails, or hair fall\n• Cold hands and feet\n\n🌿 Common contributing factors:\n1. Heavy menstrual bleeding: The most frequent reason for iron depletion in reproductive-age women.\n2. Low iron intake or absorption: Inadequate dietary iron or gut absorption issues.\n3. Low Ferritin or B12 stores: Deep tissue iron reserves may be depleted.\n\n🥗 Gentle supportive nutrition:\n• Iron-rich foods: Spinach (palak), beetroot, pomegranate, lentils, chickpeas, jaggery (gud), and sesame seeds.\n• Pair with Vitamin C: Add fresh lemon juice or amla/oranges to meals to multiply plant iron absorption up to 3 times!\n• Avoid chai or coffee with meals: Tannins block iron uptake, so wait 45 minutes after eating.\n\n👩‍⚕️ Good questions to ask your doctor:\n• Should we test my Serum Ferritin and Total Iron Binding Capacity?\n• Would oral iron with Vitamin C be helpful for me?\n• Could my menstrual flow volume be contributing to this?\n\nReminder: Diagnostic lab values should always be reviewed with your attending doctor.",
+      "metadata_json": {
+        "memoryConsulted": true,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-24T22:09:02.004Z"
+    },
+    {
+      "id": "conv_1792879758435_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "What foods improve iron absorption?",
+      "created_at": "2026-10-24T22:09:18.435Z"
+    },
+    {
+      "id": "conv_1792879758435_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nA haemoglobin value around 9.0 to 11.5 g/dL is below the standard reference range for women (normal is 12.0 to 15.5 g/dL). This indicates mild-to-moderate anemia.\n\n🔍 What this means for your body:\nHaemoglobin is the protein in red blood cells that carries oxygen to your brain and muscles. When levels are low, less oxygen circulates, causing:\n• Feeling tired or worn out even after good sleep\n• Brain fog, lightheadedness, or slight shortness of breath on stairs\n• Pale skin, brittle nails, or hair fall\n• Cold hands and feet\n\n🌿 Common contributing factors:\n1. Heavy menstrual bleeding: The most frequent reason for iron depletion in reproductive-age women.\n2. Low iron intake or absorption: Inadequate dietary iron or gut absorption issues.\n3. Low Ferritin or B12 stores: Deep tissue iron reserves may be depleted.\n\n🥗 Gentle supportive nutrition:\n• Iron-rich foods: Spinach (palak), beetroot, pomegranate, lentils, chickpeas, jaggery (gud), and sesame seeds.\n• Pair with Vitamin C: Add fresh lemon juice or amla/oranges to meals to multiply plant iron absorption up to 3 times!\n• Avoid chai or coffee with meals: Tannins block iron uptake, so wait 45 minutes after eating.\n\n👩‍⚕️ Good questions to ask your doctor:\n• Should we test my Serum Ferritin and Total Iron Binding Capacity?\n• Would oral iron with Vitamin C be helpful for me?\n• Could my menstrual flow volume be contributing to this?\n\nReminder: Diagnostic lab values should always be reviewed with your attending doctor.",
+      "metadata_json": {
+        "memoryConsulted": false,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-24T22:09:18.435Z"
+    },
+    {
+      "id": "conv_1792879769385_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "How does heavy period cause low Hb?",
+      "created_at": "2026-10-24T22:09:29.385Z"
+    },
+    {
+      "id": "conv_1792879769386_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nA haemoglobin value around 9.0 to 11.5 g/dL is below the standard reference range for women (normal is 12.0 to 15.5 g/dL). This indicates mild-to-moderate anemia.\n\n🔍 What this means for your body:\nHaemoglobin is the protein in red blood cells that carries oxygen to your brain and muscles. When levels are low, less oxygen circulates, causing:\n• Feeling tired or worn out even after good sleep\n• Brain fog, lightheadedness, or slight shortness of breath on stairs\n• Pale skin, brittle nails, or hair fall\n• Cold hands and feet\n\n🌿 Common contributing factors:\n1. Heavy menstrual bleeding: The most frequent reason for iron depletion in reproductive-age women.\n2. Low iron intake or absorption: Inadequate dietary iron or gut absorption issues.\n3. Low Ferritin or B12 stores: Deep tissue iron reserves may be depleted.\n\n🥗 Gentle supportive nutrition:\n• Iron-rich foods: Spinach (palak), beetroot, pomegranate, lentils, chickpeas, jaggery (gud), and sesame seeds.\n• Pair with Vitamin C: Add fresh lemon juice or amla/oranges to meals to multiply plant iron absorption up to 3 times!\n• Avoid chai or coffee with meals: Tannins block iron uptake, so wait 45 minutes after eating.\n\n👩‍⚕️ Good questions to ask your doctor:\n• Should we test my Serum Ferritin and Total Iron Binding Capacity?\n• Would oral iron with Vitamin C be helpful for me?\n• Could my menstrual flow volume be contributing to this?\n\nReminder: Diagnostic lab values should always be reviewed with your attending doctor.",
+      "metadata_json": {
+        "memoryConsulted": true,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-24T22:09:29.386Z"
+    },
+    {
+      "id": "conv_1792879780356_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "What is ferritin?",
+      "created_at": "2026-10-24T22:09:40.356Z"
+    },
+    {
+      "id": "conv_1792879780356_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nThank you for your question. As your Lunelle health companion, I am here to help you understand what your body is experiencing, make sense of test numbers, and keep track of your wellness journey.\n\n🌿 How I can support you today:\n• Lab Test Guidance: Clear explanations for Haemoglobin, TSH, Vitamin D, B12, Blood Sugar, Ferritin, and Lipids.\n• Women's Health & Cycles: Insights on menstrual health, cramps, ovulation signs, PCOS, and perimenopause.\n• Nutrition & Energy: Evidence-based food and lifestyle habits that support hormonal harmony.\n• Personal Health Memory: Searching your personal logged records anytime you ask.\n\nCould you tell me a little more about what you would like to explore or what you are feeling? I am ready to help.\n\nNote: Lunelle provides supportive health information and log tracking, not medical diagnoses. Always consult your doctor for personalized medical care.",
+      "metadata_json": {
+        "memoryConsulted": false,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-24T22:09:40.356Z"
+    },
+    {
+      "id": "conv_1792885995587_u",
+      "user_id": "usr_1792880726795_akazq",
+      "role": "user",
+      "content": "Meri report me Hb 9.5 hai iska kya matlab?",
+      "created_at": "2026-10-24T23:53:15.587Z"
+    },
+    {
+      "id": "conv_1792885995587_a",
+      "user_id": "usr_1792880726795_akazq",
+      "role": "assistant",
+      "content": "Hello Ananya,\n\nA haemoglobin value around 9.0 to 11.5 g/dL is below the standard reference range for women (normal is 12.0 to 15.5 g/dL). This indicates mild-to-moderate anemia.\n\n🔍 What this means for your body:\nHaemoglobin is the protein in red blood cells that carries oxygen to your brain and muscles. When levels are low, less oxygen circulates, causing:\n• Feeling tired or worn out even after good sleep\n• Brain fog, lightheadedness, or slight shortness of breath on stairs\n• Pale skin, brittle nails, or hair fall\n• Cold hands and feet\n\n🌿 Common contributing factors:\n1. Heavy menstrual bleeding: The most frequent reason for iron depletion in reproductive-age women.\n2. Low iron intake or absorption: Inadequate dietary iron or gut absorption issues.\n3. Low Ferritin or B12 stores: Deep tissue iron reserves may be depleted.\n\n🥗 Gentle supportive nutrition:\n• Iron-rich foods: Spinach (palak), beetroot, pomegranate, lentils, chickpeas, jaggery (gud), and sesame seeds.\n• Pair with Vitamin C: Add fresh lemon juice or amla/oranges to meals to multiply plant iron absorption up to 3 times!\n• Avoid chai or coffee with meals: Tannins block iron uptake, so wait 45 minutes after eating.\n\n👩‍⚕️ Good questions to ask your doctor:\n• Should we test my Serum Ferritin and Total Iron Binding Capacity?\n• Would oral iron with Vitamin C be helpful for me?\n• Could my menstrual flow volume be contributing to this?\n\nReminder: Diagnostic lab values should always be reviewed with your attending doctor.",
+      "metadata_json": {
+        "memoryConsulted": false,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-24T23:53:15.587Z"
+    },
+    {
+      "id": "conv_1792886048649_u",
+      "user_id": "usr_1792880726795_akazq",
+      "role": "user",
+      "content": "Meri report me Hb 9.5 hai iska kya matlab?",
+      "created_at": "2026-10-24T23:54:08.649Z"
+    },
+    {
+      "id": "conv_1792886048649_a",
+      "user_id": "usr_1792880726795_akazq",
+      "role": "assistant",
+      "content": "Hello Ananya,\n\nA haemoglobin value around 9.0 to 11.5 g/dL is below the standard reference range for women (normal is 12.0 to 15.5 g/dL). This indicates mild-to-moderate anemia.\n\n🔍 What this means for your body:\nHaemoglobin is the protein in red blood cells that carries oxygen to your brain and muscles. When levels are low, less oxygen circulates, causing:\n• Feeling tired or worn out even after good sleep\n• Brain fog, lightheadedness, or slight shortness of breath on stairs\n• Pale skin, brittle nails, or hair fall\n• Cold hands and feet\n\n🌿 Common contributing factors:\n1. Heavy menstrual bleeding: The most frequent reason for iron depletion in reproductive-age women.\n2. Low iron intake or absorption: Inadequate dietary iron or gut absorption issues.\n3. Low Ferritin or B12 stores: Deep tissue iron reserves may be depleted.\n\n🥗 Gentle supportive nutrition:\n• Iron-rich foods: Spinach (palak), beetroot, pomegranate, lentils, chickpeas, jaggery (gud), and sesame seeds.\n• Pair with Vitamin C: Add fresh lemon juice or amla/oranges to meals to multiply plant iron absorption up to 3 times!\n• Avoid chai or coffee with meals: Tannins block iron uptake, so wait 45 minutes after eating.\n\n👩‍⚕️ Good questions to ask your doctor:\n• Should we test my Serum Ferritin and Total Iron Binding Capacity?\n• Would oral iron with Vitamin C be helpful for me?\n• Could my menstrual flow volume be contributing to this?\n\nReminder: Diagnostic lab values should always be reviewed with your attending doctor.",
+      "metadata_json": {
+        "memoryConsulted": false,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-24T23:54:08.649Z"
+    },
+    {
+      "id": "conv_1792886092198_u",
+      "user_id": "usr_1792880726795_akazq",
+      "role": "user",
+      "content": "Meri report me Hb 9.5 hai iska kya matlab?",
+      "created_at": "2026-10-24T23:54:52.198Z"
+    },
+    {
+      "id": "conv_1792886092198_a",
+      "user_id": "usr_1792880726795_akazq",
+      "role": "assistant",
+      "content": "Hello Ananya,\n\nA haemoglobin value around 9.0 to 11.5 g/dL is below the standard reference range for women (normal is 12.0 to 15.5 g/dL). This indicates mild-to-moderate anemia.\n\n🔍 What this means for your body:\nHaemoglobin is the protein in red blood cells that carries oxygen to your brain and muscles. When levels are low, less oxygen circulates, causing:\n• Feeling tired or worn out even after good sleep\n• Brain fog, lightheadedness, or slight shortness of breath on stairs\n• Pale skin, brittle nails, or hair fall\n• Cold hands and feet\n\n🌿 Common contributing factors:\n1. Heavy menstrual bleeding: The most frequent reason for iron depletion in reproductive-age women.\n2. Low iron intake or absorption: Inadequate dietary iron or gut absorption issues.\n3. Low Ferritin or B12 stores: Deep tissue iron reserves may be depleted.\n\n🥗 Gentle supportive nutrition:\n• Iron-rich foods: Spinach (palak), beetroot, pomegranate, lentils, chickpeas, jaggery (gud), and sesame seeds.\n• Pair with Vitamin C: Add fresh lemon juice or amla/oranges to meals to multiply plant iron absorption up to 3 times!\n• Avoid chai or coffee with meals: Tannins block iron uptake, so wait 45 minutes after eating.\n\n👩‍⚕️ Good questions to ask your doctor:\n• Should we test my Serum Ferritin and Total Iron Binding Capacity?\n• Would oral iron with Vitamin C be helpful for me?\n• Could my menstrual flow volume be contributing to this?\n\nReminder: Diagnostic lab values should always be reviewed with your attending doctor.",
+      "metadata_json": {
+        "memoryConsulted": false,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-24T23:54:52.198Z"
+    },
+    {
+      "id": "conv_1792886447282_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "Sir dard",
+      "created_at": "2026-10-25T00:00:47.282Z"
+    },
+    {
+      "id": "conv_1792886447282_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nMenstrual cramps are triggered by prostaglandins—natural compounds that make the uterine muscles contract to shed the lining.\n\n🌿 Evidence-based comfort measures:\n1. Warm heat therapy: A heating pad or hot-water bottle over your lower abdomen relaxes uterine muscles as effectively as mild pain relievers.\n2. Soothing warm teas:\n   • Fresh ginger tea (adrak chai): Natural anti-inflammatory that calms cramping prostaglandins.\n   • Fennel (saunf) or chamomile water: Relaxes smooth muscle spasms and reduces bloating.\n3. Gentle pelvic stretches: Child's pose (Balasana), Cat-Cow, and slow belly breathing boost blood circulation.\n4. Magnesium-rich foods: Bananas, pumpkin seeds, soaked almonds, and dark chocolate help relax muscles.\n\n⚠️ When to check with your gynecologist:\nIf your cramps are so intense that they prevent daily activities, or if you notice heavy clotting, consulting your doctor helps rule out conditions like endometriosis or fibroids.",
+      "metadata_json": {
+        "memoryConsulted": false,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-25T00:00:47.282Z"
+    },
+    {
+      "id": "conv_1792886456731_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "Can diet reduce menstrual cramps?",
+      "created_at": "2026-10-25T00:00:56.731Z"
+    },
+    {
+      "id": "conv_1792886456731_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nMenstrual cramps are triggered by prostaglandins—natural compounds that make the uterine muscles contract to shed the lining.\n\n🌿 Evidence-based comfort measures:\n1. Warm heat therapy: A heating pad or hot-water bottle over your lower abdomen relaxes uterine muscles as effectively as mild pain relievers.\n2. Soothing warm teas:\n   • Fresh ginger tea (adrak chai): Natural anti-inflammatory that calms cramping prostaglandins.\n   • Fennel (saunf) or chamomile water: Relaxes smooth muscle spasms and reduces bloating.\n3. Gentle pelvic stretches: Child's pose (Balasana), Cat-Cow, and slow belly breathing boost blood circulation.\n4. Magnesium-rich foods: Bananas, pumpkin seeds, soaked almonds, and dark chocolate help relax muscles.\n\n⚠️ When to check with your gynecologist:\nIf your cramps are so intense that they prevent daily activities, or if you notice heavy clotting, consulting your doctor helps rule out conditions like endometriosis or fibroids.",
+      "metadata_json": {
+        "memoryConsulted": true,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-25T00:00:56.731Z"
+    },
+    {
+      "id": "conv_1792886462815_u",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "user",
+      "content": "What are signs of endometriosis?",
+      "created_at": "2026-10-25T00:01:02.815Z"
+    },
+    {
+      "id": "conv_1792886462815_a",
+      "user_id": "usr_1792873604374_pgbvf",
+      "role": "assistant",
+      "content": "Hello Pallavi,\n\nThank you for your question. As your Lunelle health companion, I am here to help you understand what your body is experiencing, make sense of test numbers, and keep track of your wellness journey.\n\n🌿 How I can support you today:\n• Lab Test Guidance: Clear explanations for Haemoglobin, TSH, Vitamin D, B12, Blood Sugar, Ferritin, and Lipids.\n• Women's Health & Cycles: Insights on menstrual health, cramps, ovulation signs, PCOS, and perimenopause.\n• Nutrition & Energy: Evidence-based food and lifestyle habits that support hormonal harmony.\n• Personal Health Memory: Searching your personal logged records anytime you ask.\n\nCould you tell me a little more about what you would like to explore or what you are feeling? I am ready to help.\n\nNote: Lunelle provides supportive health information and log tracking, not medical diagnoses. Always consult your doctor for personalized medical care.",
+      "metadata_json": {
+        "memoryConsulted": false,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-25T00:01:02.815Z"
+    },
+    {
+      "id": "conv_1792886746855_u",
+      "user_id": "usr_1792880726795_akazq",
+      "role": "user",
+      "content": "Meri report me Hb 9.5 hai iska kya matlab?",
+      "created_at": "2026-10-25T00:05:46.855Z"
+    },
+    {
+      "id": "conv_1792886746855_a",
+      "user_id": "usr_1792880726795_akazq",
+      "role": "assistant",
+      "content": "Hello Ananya,\n\nA haemoglobin value around 9.0 to 11.5 g/dL is below the standard reference range for women (normal is 12.0 to 15.5 g/dL). This indicates mild-to-moderate anemia.\n\n🔍 What this means for your body:\nHaemoglobin is the protein in red blood cells that carries oxygen to your brain and muscles. When levels are low, less oxygen circulates, causing:\n• Feeling tired or worn out even after good sleep\n• Brain fog, lightheadedness, or slight shortness of breath on stairs\n• Pale skin, brittle nails, or hair fall\n• Cold hands and feet\n\n🌿 Common contributing factors:\n1. Heavy menstrual bleeding: The most frequent reason for iron depletion in reproductive-age women.\n2. Low iron intake or absorption: Inadequate dietary iron or gut absorption issues.\n3. Low Ferritin or B12 stores: Deep tissue iron reserves may be depleted.\n\n🥗 Gentle supportive nutrition:\n• Iron-rich foods: Spinach (palak), beetroot, pomegranate, lentils, chickpeas, jaggery (gud), and sesame seeds.\n• Pair with Vitamin C: Add fresh lemon juice or amla/oranges to meals to multiply plant iron absorption up to 3 times!\n• Avoid chai or coffee with meals: Tannins block iron uptake, so wait 45 minutes after eating.\n\n👩‍⚕️ Good questions to ask your doctor:\n• Should we test my Serum Ferritin and Total Iron Binding Capacity?\n• Would oral iron with Vitamin C be helpful for me?\n• Could my menstrual flow volume be contributing to this?\n\nReminder: Diagnostic lab values should always be reviewed with your attending doctor.",
+      "metadata_json": {
+        "memoryConsulted": false,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-25T00:05:46.855Z"
+    },
+    {
+      "id": "conv_1792886804554_u",
+      "user_id": "usr_1792880726795_akazq",
+      "role": "user",
+      "content": "Meri report me Hb 9.5 hai iska kya matlab?",
+      "created_at": "2026-10-25T00:06:44.554Z"
+    },
+    {
+      "id": "conv_1792886804554_a",
+      "user_id": "usr_1792880726795_akazq",
+      "role": "assistant",
+      "content": "Hello Ananya,\n\nA haemoglobin value around 9.0 to 11.5 g/dL is below the standard reference range for women (normal is 12.0 to 15.5 g/dL). This indicates mild-to-moderate anemia.\n\n🔍 What this means for your body:\nHaemoglobin is the protein in red blood cells that carries oxygen to your brain and muscles. When levels are low, less oxygen circulates, causing:\n• Feeling tired or worn out even after good sleep\n• Brain fog, lightheadedness, or slight shortness of breath on stairs\n• Pale skin, brittle nails, or hair fall\n• Cold hands and feet\n\n🌿 Common contributing factors:\n1. Heavy menstrual bleeding: The most frequent reason for iron depletion in reproductive-age women.\n2. Low iron intake or absorption: Inadequate dietary iron or gut absorption issues.\n3. Low Ferritin or B12 stores: Deep tissue iron reserves may be depleted.\n\n🥗 Gentle supportive nutrition:\n• Iron-rich foods: Spinach (palak), beetroot, pomegranate, lentils, chickpeas, jaggery (gud), and sesame seeds.\n• Pair with Vitamin C: Add fresh lemon juice or amla/oranges to meals to multiply plant iron absorption up to 3 times!\n• Avoid chai or coffee with meals: Tannins block iron uptake, so wait 45 minutes after eating.\n\n👩‍⚕️ Good questions to ask your doctor:\n• Should we test my Serum Ferritin and Total Iron Binding Capacity?\n• Would oral iron with Vitamin C be helpful for me?\n• Could my menstrual flow volume be contributing to this?\n\nReminder: Diagnostic lab values should always be reviewed with your attending doctor.",
+      "metadata_json": {
+        "memoryConsulted": false,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-25T00:06:44.554Z"
+    },
+    {
+      "id": "conv_1792886804561_u",
+      "user_id": "usr_1792880726795_akazq",
+      "role": "user",
+      "content": "Summarize my health",
+      "created_at": "2026-10-25T00:06:44.561Z"
+    },
+    {
+      "id": "conv_1792886804561_a",
+      "user_id": "usr_1792880726795_akazq",
+      "role": "assistant",
+      "content": "Hello Ananya,\n\nHere is your comprehensive Lunelle Health Overview:\n\n🌸 Your Recent Symptoms:\n• No active symptoms currently logged.\n\n🩸 Key Laboratory Highlights:\n• No flagged abnormal lab values in your recorded history.\n\n🌙 Cycle & Rhythm Status:\n• No recent cycle entry logged yet.\n\n💡 Wellness Recommendation for Today:\n• Stay hydrated with 2.5L water throughout the day.\n• Prioritize an early bedtime to support immune repair.\n• Schedule an annual review with your healthcare provider for routine health monitoring.\n\nWould you like more details on any specific symptom or lab report?",
+      "metadata_json": {
+        "memoryConsulted": false,
+        "isEmergency": false
+      },
+      "created_at": "2026-10-25T00:06:44.561Z"
+    }
+  ]
+}

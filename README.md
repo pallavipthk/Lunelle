@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌸 Lunelle — Your health, your story.
 > *A little more in tune with you.*
 
@@ -139,3 +140,6 @@ Static assets will be compiled to the `dist/` folder. The Node.js Express server
 - Lunelle is a personal health organizer and educational platform; it does **not** provide medical diagnoses, treatment prescriptions, or clinical triage.
 - Always consult a qualified medical professional for health concerns.
 - In medical emergencies, contact national emergency services immediately (112 / 108 in India, or your local emergency number).
+=======
+# Lunelle
+>>>>>>> 22cc2c559495e495645bf307a5b9ad82607671d2

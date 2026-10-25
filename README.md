@@ -1,145 +1,260 @@
-<<<<<<< HEAD
-# 🌸 Lunelle — Your health, your story.
-> *A little more in tune with you.*
+# 🌸 Lunelle — Your Health, Your Story
 
-Lunelle is a complete, polished, responsive, privacy-first women's health platform that empowers users to track their health, interpret laboratory reports, discover explainable patterns, manage private health records, and access understandable health information through text and voice in English, Hindi, Marathi, and Hinglish.
+*A little more in tune with you.*
 
----
+Lunelle is a women's health and wellness platform designed to help users understand their health, organize personal medical information, track symptoms and menstrual cycles, review laboratory reports, and discover patterns in their health history.
 
-## 🌿 Core Product Principles
+Built around **privacy, clarity, accessibility, and responsible health information**, Lunelle brings everyday health tracking and educational support together in one thoughtfully designed experience.
 
-1. **Authentic Data Foundation**: Insights and summaries are calculated strictly from authorized, saved user records—never simulated or fabricated.
-2. **Explainable Patterns**: The Explainable Health Pattern Finder transparently separates correlation from causation, cites supporting database entries, and explicitly documents missing context.
-3. **Clinical Safety Layer**: Deterministic red-flag emergency detection operates independently of generative models, providing immediate access to verified emergency helplines in India (112, 108, 1091, 14416).
-4. **Hinglish & Multi-Language Voice**: Natural language parsing that understands everyday colloquial Indian-language health descriptions (e.g. *"kal se sir dukh raha h"*, *"period 10 din late hai"*, *"Mala sakalpasun thakva vattoy"*).
-5. **Human-in-the-Loop Extraction**: Lab report extraction requires interactive user verification and confirmation before values are saved to permanent records.
-6. **Data Autonomy**: Full JSON export and one-tap complete record/account deletion.
+> **Important:** Lunelle is a health organization and education tool, not a replacement for professional medical advice, diagnosis, or treatment.
 
 ---
 
-## 🎨 Visual Design System
+## ✨ Features
 
-Inspired by premium editorial wellness journals and Pinterest aesthetics:
-- **Main Background**: `#FFFCF6`
-- **Deep Sage**: `#345344`
-- **Botanical Green**: `#A9BFA6`
-- **Pale Sage**: `#DFE8DA`
-- **Dusty Rose**: `#F2E0DB`
-- **Muted Rose**: `#B77D78`
-- **Butter Cream**: `#F6EACB`
-- **Primary Text**: `#303B33`
-- **Secondary Text**: `#778078`
-- **Borders**: `#E9E6DD`
+### 🩷 Personal Health Management
+- Personal health dashboard and health summaries.
+- Symptom tracking with historical entries.
+- Menstrual cycle tracking and women's health support.
+- Medication and appointment reminders.
+- Chronological health history and personal medical records.
 
-**Typography**:
-- *Playfair Display*: Editorial headlines and section titles.
-- *DM Sans*: UI controls, forms, navigation, and body labels.
-- *Cormorant Garamond*: Restrained editorial italics.
+### 🧠 Health Insights
+- Identify trends and potential patterns in saved health records.
+- Present understandable explanations of observed patterns.
+- Distinguish statistical associations from proven causes.
+- Provide context about missing information and limitations.
+
+### 🧪 Laboratory Report Support
+- Upload supported laboratory reports and medical documents.
+- Review extracted test values and reference ranges.
+- Explain common medical terminology in accessible language.
+- Organize historical results for easier comparison.
+
+*Extracted information should be checked against the original report and confirmed before being relied upon.*
+
+### 💬 AI Health Assistant
+- Ask health-related educational questions in natural language.
+- Support everyday Hindi, English, Marathi, and Hinglish expressions where implemented.
+- Make health information easier to understand.
+- Access relevant saved health information where supported by the application.
+
+AI-generated responses may be incomplete or inaccurate and should not be treated as a medical diagnosis.
+
+### 🚨 Safety-First Design
+- Detect configured emergency warning signs using deterministic rules where implemented.
+- Direct users toward appropriate emergency assistance.
+- Keep emergency guidance separate from ordinary AI-generated responses.
+
+In India, call **112** for emergency assistance. Do not delay emergency care while using the application.
+
+### 🔐 Privacy and Data Control
+- User authentication and protected personal records, where implemented.
+- Data export and deletion capabilities, where implemented.
+- Clear separation of personal health information between accounts.
+- A privacy-conscious approach to managing sensitive information.
+
+### 🌿 Accessible User Experience
+- Calm, editorial-inspired visual design.
+- Responsive layouts for desktop and mobile devices.
+- Readable health information and straightforward navigation.
+- Support for multilingual and voice-based interactions where available.
 
 ---
 
-## 🏗️ Architecture & Modules
+## 🎨 Design Philosophy
 
-### 1. Frontend (Vite + React 18 + TypeScript + Tailwind CSS)
-- **Landing Page**: Editorial presentation with interactive live component preview, feature matrix, and verified privacy disclosures.
-- **Authentication & Onboarding**: Email/password authentication with optional multi-step preference setup (language, tone, module toggling, data consent).
-- **Navigation (10 Core Modules)**:
-  1. **Overview**: Personalized greetings, daily quick check-ins, recent entries, upcoming reminders, and pattern cards.
-  2. **My Health**: Personal health summary (allergies, medications, conditions) and Whole-Health Chronological Timeline.
-  3. **Symptom Tracker**: Structured logging and Hinglish voice dictation with draft verification.
-  4. **Women's Health**: Menstrual cycle tracking with mathematical estimations (non-guarantee), PCOS support, perimenopause, and reproductive health.
-  5. **Health Insights**: Explainable pattern finder with supporting record links and non-causation disclaimers.
-  6. **Lab Reports**: PDF/Image upload, reference range extraction review, accessible explanations, and historical tracking.
-  7. **AI Health Assistant**: Conversational companion with Personal Health Memory retrieval and Web Speech API read-aloud.
-  8. **Reminders**: Medication schedules, doctor appointments, preventive screenings, and Web Notification API integration.
-  9. **Medical Vault**: Private, authenticated document repository.
-  10. **Settings & Privacy**: Autonomous data export (JSON), complete health data wipe, and account deletion.
-- **Guided Symptom Assessment**: Interactive triage questionnaire with safety-first red flag detection.
-- **Health Education Library**: Evidence-grounded articles with audio read-aloud.
+Lunelle uses a soft botanical palette inspired by wellness journals and nature.
 
-### 2. Backend (Node.js + Express + TypeScript + Relational SQLite Engine)
-- `/server/db.ts`: Persistent storage engine with automatic migrations and relational integrity in `data/lunelle_store.json`.
-- `/server/safety-rules.ts`: Deterministic emergency triage rules covering chest pain, FAST stroke signs, acute hemorrhage, and mental health crises.
-- `/server/hinglish-parser.ts`: Natural language engine parsing Hinglish/Hindi/Marathi health vocabulary, durations, and severity progressions.
-- `/server/health-memory.ts`: Database-grounded memory engine answering factual historical inquiries.
-- `/server/pattern-finder.ts`: Statistical co-occurrence and trend calculation engine.
-- `/server/lab-parser.ts`: Diagnostic reference range parser for CBC, Thyroid TSH, Lipid Profile, Blood Glucose, and vitamins.
-- `/server/routes/api.ts`: Modular REST endpoints with JWT authentication and per-user data isolation.
+| Design element | Color |
+|---|---|
+| Main background | `#FFFCF6` |
+| Deep sage | `#345344` |
+| Botanical green | `#A9BFA6` |
+| Pale sage | `#DFE8DA` |
+| Dusty rose | `#F2E0DB` |
+| Muted rose | `#B77D78` |
+| Butter cream | `#F6EACB` |
+| Primary text | `#303B33` |
+
+The design aims to make personal health management feel approachable, organized, and reassuring.
 
 ---
 
-## 🚀 Quick Setup & Running Locally
+## 🏗️ Technology Stack
+
+The project uses the following technologies where configured in the codebase:
+
+- **Frontend:** React, TypeScript, Vite, Tailwind CSS
+- **Backend:** Node.js, Express, TypeScript
+- **Data storage:** Application-managed persistent storage
+- **Authentication:** JWT and password hashing, where configured
+- **Testing:** Automated tests for supported application modules
+- **Browser capabilities:** File uploads, notifications, and speech features where supported
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run Lunelle locally.
 
 ### Prerequisites
-- Node.js (v18.0.0 or higher recommended)
-- npm or yarn
 
-### 1. Install Dependencies
+Install:
+
+- [Node.js](https://nodejs.org/) — preferably an active LTS version
+- npm, included with Node.js
+- [Git](https://git-scm.com/)
+
+Verify the installations:
+
+```bash
+node --version
+npm --version
+git --version
+```
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/pallavipthk/Lunelle.git
+cd Lunelle
+```
+
+If you already have the project on your computer, open its existing folder instead.
+
+### 2. Install Dependencies
+
 ```bash
 npm install
 ```
 
-### 2. Configure Environment Variables
-Copy `.env.example` to `.env`:
+### 3. Configure Environment Variables
+
+Create a local `.env` file from the example configuration.
+
+**Windows PowerShell:**
+
+```powershell
+Copy-Item .env.example .env
+```
+
+**macOS/Linux:**
+
 ```bash
 cp .env.example .env
 ```
-Default parameters are pre-configured:
-```env
-PORT=3001
-JWT_SECRET=lunelle_secure_jwt_secret_change_in_production_key_38472948
-```
 
-### 3. Run Development Server
-To launch both the Express backend and the Vite frontend concurrently:
+Review `.env.example` and update any required values in `.env`. Use a unique, strong secret for production deployments. Never commit real credentials, tokens, or private environment files to GitHub.
+
+### 4. Start the Development Server
+
 ```bash
 npm run dev
 ```
-- **Frontend**: [http://localhost:5173](http://localhost:5173)
-- **Backend API**: [http://localhost:3001](http://localhost:3001)
 
-Alternatively, run each service in separate terminals:
+The command starts the development services configured by the project. Check the terminal output for the actual frontend and backend addresses.
+
+Common local addresses may be:
+
+- Frontend: `http://localhost:5173`
+- Backend: `http://localhost:3001`
+
+If a port is already occupied, the application may report an error or select a different frontend port.
+
+### 5. Build for Production
+
 ```bash
-# Terminal 1: Backend
-npm run server
-
-# Terminal 2: Frontend
-npm run client
+npm run build
 ```
 
----
+### 6. Run Tests
 
-## 🧪 Automated Testing
-
-Execute the automated test suite verifying emergency rules, Hinglish parsing, authentication security, personal health memory, and pattern finder calculations:
 ```bash
 npm run test
 ```
 
-All test cases verify:
-- Immediate emergency detection (chest pain radiating to arm, FAST stroke, acute bleeding) vs non-urgent entries.
-- Hinglish phrase extraction (*"kal se sir dukh raha h"*, *"period 10 din late hai"*, *"pet m cramps bhot jyada h"*, *"Mala sakalpasun thakva vattoy"*).
-- Password encryption with bcryptjs and JWT integrity.
-- Personal Health Memory factual responses and missing record honesty.
-- Pattern finder non-causation disclaimers and supporting evidence links.
+Run these commands from the project root. The available scripts are defined in `package.json`.
 
 ---
 
-## 📦 Production Build & Deployment
+## 📁 Project Structure
 
-To compile the production build:
-```bash
-npm run build
+The repository is organized around the application's frontend, backend, and supporting configuration.
+
+```text
+Lunelle/
+├── public/             # Public static assets, if configured
+├── src/                # Frontend application source
+├── server/             # Backend modules and API logic
+├── .env.example        # Environment variable template
+├── .gitignore          # Files excluded from Git
+├── package.json        # Dependencies and npm scripts
+├── README.md           # Project documentation
+└── ...
 ```
-Static assets will be compiled to the `dist/` folder. The Node.js Express server can serve the built client files directly in production.
+
+The exact structure may vary as the project evolves.
 
 ---
 
-## ⚖️ Clinical & Legal Boundaries
+## 🛡️ Responsible Use and Medical Disclaimer
 
-- Lunelle is a personal health organizer and educational platform; it does **not** provide medical diagnoses, treatment prescriptions, or clinical triage.
-- Always consult a qualified medical professional for health concerns.
-- In medical emergencies, contact national emergency services immediately (112 / 108 in India, or your local emergency number).
-=======
-# Lunelle
->>>>>>> 22cc2c559495e495645bf307a5b9ad82607671d2
+Lunelle is intended to support personal health organization and health education. It does not replace a qualified healthcare professional.
+
+- Do not use the application as the sole basis for medical decisions.
+- Do not interpret patterns as proof of a medical condition or causal relationship.
+- Verify laboratory values and extracted information against the original documents.
+- Seek professional medical advice for concerning or persistent symptoms.
+- Contact emergency services immediately when urgent medical attention is needed.
+
+**Privacy note:** Health records are sensitive personal information. Before using real medical documents, verify the application's authentication, access controls, storage, deletion, and deployment security.
+
+---
+
+## 🔒 Security
+
+- Keep `.env` and other files containing secrets out of version control.
+- Never publish real user health records, medical reports, or private uploads.
+- Use strong secrets and HTTPS in production.
+- Review authentication, authorization, file-upload validation, and data retention before deploying.
+- Report security concerns privately to the repository owner rather than publishing sensitive details.
+
+---
+
+## 🗺️ Roadmap
+
+Potential future improvements include:
+
+- More comprehensive multilingual accessibility.
+- Improved health-history visualization.
+- More transparent explanations of health patterns.
+- Expanded laboratory report support and validation.
+- Additional privacy and security controls.
+- Improved mobile usability and accessibility testing.
+
+Roadmap items are planned improvements, not a guarantee that a feature is currently available.
+
+---
+
+## 🤝 Contributing
+
+Contributions, bug reports, and suggestions are welcome.
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Make and test your changes.
+4. Commit your changes with a clear message.
+5. Open a pull request describing the changes.
+
+Please avoid including personal health information, secrets, or private user data in issues, commits, and pull requests.
+
+---
+
+## 📄 License
+
+No license has been specified in this repository yet. Unless a license is added, do not assume that the code is available for unrestricted reuse, modification, or redistribution.
+
+---
+
+**Lunelle — A more thoughtful way to understand and organize your health.** 🌿

@@ -6,7 +6,7 @@ Lunelle is a women's health and wellness platform designed to help users underst
 
 Built around **privacy, clarity, accessibility, and responsible health information**, Lunelle brings everyday health tracking and educational support together in one thoughtfully designed experience.
 
-> **Important:** Lunelle is a health organization and education tool, not a replacement for professional medical advice, diagnosis, or treatment.
+> **Important:** Lunelle is a Health Organization and education tool, not a replacement for professional medical advice, diagnosis, or treatment.
 
 ---
 
